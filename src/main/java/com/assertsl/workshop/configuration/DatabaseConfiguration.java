@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 public class DatabaseConfiguration {
 
     @Resource    
-//    @Autowired
+    @Autowired
     private DatabaseProperties properties;
 
 
