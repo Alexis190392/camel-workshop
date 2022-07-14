@@ -23,6 +23,14 @@ public class DatabaseConfiguration {
         dataSource.setUrl(properties.getUrl());
         dataSource.setUsername(properties.getUsername());
         dataSource.setPassword(properties.getPassword());
+        
+        System.out.println("\n\n\n" + properties.getDriver() 
+                + "\n" + properties.getUrl()
+                + "\n" + properties.getUsername()
+                + "\n" + properties.getPassword()
+                +"\n\n\n"
+        );
+        
         return dataSource;
     }
 
