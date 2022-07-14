@@ -26,7 +26,6 @@ public class DatabaseProperties {
     }
 
     public String getUrl() {
-        System.out.println("\n" +  + );
         return url;
     }
 
