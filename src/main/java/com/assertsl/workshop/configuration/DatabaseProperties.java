@@ -16,7 +16,7 @@ public class DatabaseProperties {
     private String getDrug;
     private String disableDrug;
     private String updateDrug;
-
+    
     public String getDriver() {
         return driver;
     }
